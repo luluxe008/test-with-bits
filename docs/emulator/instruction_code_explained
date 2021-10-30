@@ -9,3 +9,24 @@ For the next we define that the first octet is the one which is at the rigth and
 ^^^^^^^^		   ^^^^^^^^
 last one		 first one
 
+The last octet has two part for the emulator: the first part is an 5 bits array which represent the instruction it-self.
+The three last bit of octet define if the params are constant or memory adress.
+00000/000 
+^^^^^ ^^^
+  |    |
+  |    `---- bit array which define the params.
+  |
+  `---instruction it-self.
+
+The three fisrt octets are parameters. They are linked to the three last bit of the last octet. If the bit which is linked to is 0. The parameter is a memoey adress, else it's a constant.
+
+00000000 00000000 00000000 00000000
+     ^^^ ~~~~~~~~ ~~~~~~~~ ~~~~~~~~
+     |||  |        |        |
+     ||`--|--------|--------'
+     ||   |        |
+     |`---|--------'  
+     |    |
+     `----'
+
+

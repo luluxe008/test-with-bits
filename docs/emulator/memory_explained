@@ -1,4 +1,10 @@
+=======MEMORY=======
 
+The memory is an 32-bits array, so the first cell is at 0.
+At 0 there is the current instruction adress
+At 1 there is the length of the program.
+At 2 to 128 max there is the program it-self.
+At the of the program or 2 + the program length, there is the program memory.
 
 .____________________________.
 | CURRENT INSTRUCTION ADRESS | 0
