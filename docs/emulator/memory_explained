@@ -17,4 +17,6 @@ At the of the program or 2 + the program length, there is the program memory.
 | PROGRAM MEMORY	     | ~
 |____________________________| 128
 
-
+By default the memory has a size of 128.
+[POSSIBLE FEATURE]
+If the program legnth plus its memory exceds the 128 memory cells then the emulator will add 128 memory cells.
