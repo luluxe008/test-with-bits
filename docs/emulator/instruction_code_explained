@@ -1,0 +1,11 @@
+=======INSTRUCTION CODE=======
+
+All of the instruction are stored in the "PROGRAM INSTRUCTION" section which start at 2.
+P.S: the first memory cell is at 0.  So 2 is the third cell.
+
+They're codes in 32 bits with 4 octets.
+For the next we define that the first octet is the one which is at the rigth and the last at the the leff.
+00000000 00000000 00000000 00000000
+^^^^^^^^		   ^^^^^^^^
+last one		 first one
+

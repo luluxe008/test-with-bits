@@ -1,18 +1,20 @@
 #include <iostream>
 
 /*
- * _____________________
- * | CURRENT INSTRUCTION ADRESS
- * |___________________________
- * | PROGRAM LENGTH
- * |___________________________
- * | PROGRAM INSTRUCTION
- * |
- * |___________________________
- * | PROGRAM MEMORY
- * |___________________
+ * .____________________________.
+ * | CURRENT INSTRUCTION ADRESS	| 0
+ * |____________________________|
+ * | PROGRAM LENGTH		| 1
+ * |____________________________|
+ * | PROGRAM INSTRUCTION	| ~
+ * |				|
+ * |____________________________|
+ * | PROGRAM MEMORY	       	| ~
+ * |____________________________| 128
  * 
  */
+
+
 
 int main(){
 
