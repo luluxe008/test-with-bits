@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Debug.cpp"
+#include "emulator/Debug.hpp"
 /*
  * .____________________________.
  * | CURRENT INSTRUCTION ADRESS	| 0
