@@ -1,0 +1,9 @@
+
+Debug.hpp:
+	headers needed: nothing except string
+	
+	class: No
+        namespace:
+		Debug:
+		There is "Debug" namespace which define "value_as_string_bit"
+

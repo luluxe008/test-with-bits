@@ -1,23 +1,8 @@
 #include <iostream>
-#include "emulator/Debug.hpp"
-/*
- * .____________________________.
- * | CURRENT INSTRUCTION ADRESS	| 0
- * |____________________________|
- * | PROGRAM LENGTH		| 1
- * |____________________________|
- * | PROGRAM INSTRUCTION	| ~
- * |				|
- * |____________________________|
- * | PROGRAM MEMORY	       	| ~
- * |____________________________| 128
- * 
- */
-
+#include "Debug.hpp"
 
 
 int main(){
-
-
+	std::cout << "bit for short = 5: " << Debug::value_as_string_bit<short>((short) 5) << std::endl;
 	return 0;
 };
