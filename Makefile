@@ -1,5 +1,5 @@
 emulator:
-	g++ src/emulator.cpp -o emulator
+	g++ -I headers/ src/emulator/emulator.cpp -o emulator
 
 compiler:
-	g++ src/compiler.cpp -o compiler
+	g++ src/compiler/compiler.cpp -o compiler

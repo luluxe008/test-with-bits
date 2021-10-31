@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "Debug.cpp"
 /*
  * .____________________________.
  * | CURRENT INSTRUCTION ADRESS	| 0
