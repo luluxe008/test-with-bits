@@ -1,9 +1,35 @@
+The code is devide by headers file and their implementation.
+Currently there is only two headers files:
 
-Debug.hpp:
-	headers needed: nothing except string
+Debug.hpp
+	Descriotion:
+	This file is use to debug other file. So it's not in headers/emulator or headers/compiler. It's just in headers/.
 	
-	class: No
-        namespace:
-		Debug:
-		There is "Debug" namespace which define "value_as_string_bit"
+	classes:
+	Nope
+	
+	namespace:
+        Debug:
+		template<typename T> std::string value_as_string_bit(T value) -> return a string in bit format of the T value (5 -> 00000101)
+		void print_bit(unsigned int value) -> just a shortcut to value_as_string_bit()
 
+Memory.hpp
+	Description:
+	This file contains the memory of program. A list of 128 unsigned int. More details about the memory it-self in it's documentation.
+	
+	class:
+		Memory
+			Memory() -> constructor
+			
+
+.___________________Debug.hpp___________________________________________________.
+|										|
+|	._____Namespace_______________________________________________.		|
+|	|name: Debug		  				      |		|
+|	|-------------------------------------------------------------|		|
+|	|Functions:		  				      |		|
+|	|template<typename T> std::string value_as_string_bit(T value)|		|
+|	|void print_bit(unsigned int value)			      |		|
+|	|							      |		|
+|	|_____________________________________________________________|		|
+|_______________________________________________________________________________|
